@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Vaccine Registration</title>
+        <link rel="stylesheet" type="text/css" href="C:\Users\Deep Chaudhari\Desktop\vaccine.css">
+        <script type="text/javascript">
+        function displayInstructions()
+        { 
+         
+         var a= document.forms["form1"]["fname"].value;
+         
+         document.getElementById('username1').innerHTML = 'HI '+a+', PLZ CLICK <a href="file:///C:/Users/Deep%20Chaudhari/Desktop/nasscom%20website/instruction.htm">HERE</a> TO START THE REGISTRATION PROCESS'; 
+         
+         
+        }
+        </script>
+    </head>
+    <body style="background-color:#FFFF66;">
+        <div style="background: green">
+           <h1 id=head1 align="center">VACCINATION REGISTRATION</h1>
+        </div>
+        <div>
+           <h1 id=head2 align="center">Let's win the war over Covid-19</h1>
+        </div>
+        <div id=div1><br><br> &nbsp; &nbsp; &nbsp;
+           <img id=img1 src="https://images.indianexpress.com/2021/02/vaccine-8.jpg" align="left" alt="sorry" width="450" height="300"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+           <img id=img2 src="https://yt3.ggpht.com/ytc/AAUvwnh7CHDDIuu6a87VwcIoDe-UeDb-Cfu8Ig8utAcGBDw=s900-c-k-c0x00ffffff-no-rj" alt="sorry" width="300" height="300">
+           <img id=img3 src="https://www.thehindubusinessline.com/news/science/4c6bfg/article33910461.ece/ALTERNATES/LANDSCAPE_355/bl-vaccine" align="right" alt="sorry" width="450" height="300"> &nbsp; &nbsp; &nbsp;
+        <br><br></div>
+        <br><br><br><br><br>
+        <div id=div2>
+           <font size="24">YOUR NAME:-</font> &nbsp; &nbsp; &nbsp; &nbsp;
+           <form method="get" name="form1">
+              <input type="text" name="fname" style="font-size: 18pt; height: 70px; width: 400px"> &nbsp; &nbsp; &nbsp; &nbsp;
+              <input type="button" onClick="displayInstructions()" value="SUBMIT" style="font-size: 18pt; color: white; height: 70px; width: 150px; background-color: green">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              <span id="username1" style="color: blue; font-size: 20pt"></span>
+              <span id="username2" style="color: blue; font-size: 20pt"></span>
+              <span id="username3" style="color: blue; font-size: 20pt"></span>
+        </form>
+        </div>
+    </body>
+</html>
+

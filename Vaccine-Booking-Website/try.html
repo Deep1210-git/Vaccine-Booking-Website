@@ -1,0 +1,25 @@
+<html>
+<head>
+<script type="text/javascript">
+function displayHash()
+{
+var url=location.hash;
+var url1=unescape(url.substr(1));
+document.getElementById("disp").innerHTML=url1;
+}
+</script>
+</head>
+<body style="background-color:#6CFF33;">
+<h1 align="center">VACCINATION SLOT BOOKED SUCCESSFULLY. IF YOU HAVE ANY QUERIES THE PLEASE POST IN COMMENT SECTION</h1>
+<h2>Please select the language</h2>
+<a href="#hindi">Hindi</a><br>
+<a href="#english">English</a><br>
+<a href="#tamil">Tamil</a><br><br>
+<font id=hindi>Please</font>
+<font id=tips>select</font>
+<font id=tips>any language from above and click on go</font><br>
+<input type="button" value="CONFIRM" onClick="displayHash()"><br>
+<p id="disp"></p>
+<input type="button" value="GO" onClick="window.location.href='http://localhost/PHP-Comment-System-main/index.php';"
+</body>
+</html>
